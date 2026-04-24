@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories (if used later)
+node_modules/
