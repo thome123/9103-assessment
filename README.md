@@ -4,16 +4,16 @@
 - `index.html`
 - `style.css`
 - `js/sketch.js`
-- `js/mechanics/audio-mechanic.js`（成员A）
-- `js/mechanics/time-mechanic.js`（成员B）
-- `js/mechanics/input-mechanic.js`（成员C）
+- `js/mechanics/audio-mechanic.js` Oliver
+- `js/mechanics/time-mechanic.js`Kylo
+- `js/mechanics/input-mechanic.js` Davy
 - `assets/audio/`
 - `assets/images/`
 
 ## 小组分工（Mechanic Ownership）
-- 成员A：Audio
-- 成员B：Time-based
-- 成员C：User Input
+- Oliver：Audio
+- Kylo：Time-based
+- Davy：User Input
 
 > 同组成员不可选择同一 mechanic。
 
