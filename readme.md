@@ -1,27 +1,35 @@
-# Quiz 8: Design Research
+# Quiz 8 - Design Research
 
 ## Part 1: Imaging Technique Inspiration
 
-### Technique: Double Exposure Photography
-I am inspired by double exposure images that merge a portrait with natural textures. I want to incorporate this layered look to communicate mood and identity in one frame rather than showing them separately. The soft overlap, transparency, and contrast between subject and landscape can create a stronger narrative and emotional tone for my major assignment. This technique is beneficial because it supports experimentation with composition, blending, and visual storytelling, which aligns with the assignment goal of developing a distinctive imaging style even if the final effect is technically challenging.
+### Chosen Imaging Technique
+**Audio-reactive immersive fluid visualization**
 
-**Reference Images**
+### Reflection (max 100 words)
+My inspiration comes from teamLab’s *Universe of Water Particles on a Rock where People Gather* and *Black Waves: Immersive Mass*. The first work uses real-time particle simulation so visitors can alter water flow by touching or entering the space. The second creates an immersive sense of life through continuous black waves and line-based motion. I want to apply this logic of fluid lines, real-time transformation, and embodied immersion in my project. This direction is beneficial because it turns interaction into expressive visual narrative and can integrate well with my team’s other mechanics.
 
-![Double exposure portrait and nature](https://commons.wikimedia.org/wiki/Special:FilePath/Yoga%2C_double_exposure_by_Victor_Tondee_.jpg)
+### Reference Images
+![teamLab Universe of Water Particles](https://image.team-lab.cn/unsafe/plain/s3%3A%2F%2Fimagewave-sites-prd-imageproxy-bucket%2F6qQfS6bKtpqMrKJtLUoUk9)
 
-![Historic double exposure composition](https://commons.wikimedia.org/wiki/Special:FilePath/Double_exposure_photo_of_the_photographer%27s_wife_circa_1940s.jpg)
+![teamLab Black Waves Immersive Mass](https://image.team-lab.cn/unsafe/plain/s3%3A%2F%2Fimagewave-sites-prd-imageproxy-bucket%2Fdgha6em5eWLFeLDLNzg3A)
+
+### Reference Links
+- [teamLab: Universe of Water Particles on a Rock where People Gather](https://art.team-lab.cn/en/ew/iwa-waterparticles/)
+- [teamLab: Black Waves: Immersive Mass](https://art.team-lab.cn/en/w/blackwaves_immersive_mass/)
+
+---
 
 ## Part 2: Coding Technique Exploration
 
-### Technique: Perlin Noise Flow Field + Alpha Trails (p5.js)
-A useful coding technique is generating a Perlin noise flow field and moving many particles through it while drawing with low alpha values. This can build organic, layered motion patterns that resemble transparent overlays, helping recreate the dreamy blending quality of double exposure. By controlling noise scale, particle speed, and blend modes, I can tune whether the result feels subtle or dramatic. This approach supports iterative visual experiments and can contribute background textures or animated masks that strengthen the final composite effect.
+### Chosen Coding Technique
+**`p5.FFT` frequency analysis**
 
-**Coding Technique in Action**
+### Reflection (max 100 words)
+I will use `p5.FFT` to analyse audio by frequency bands and map that data to visual behavior. Low frequencies can drive large wave movement, while higher frequencies can control fine line flicker and particle detail. This directly supports the layered fluid motion in my teamLab references. Because FFT returns structured spectrum data every frame, the visuals can react to sound in real time while remaining controllable and readable. This makes FFT a strong single technique for implementing my Audio mechanic.
 
-![Flow field coding technique example](https://img.youtube.com/vi/BjoM9oKOAKY/maxresdefault.jpg)
+### Coding Technique in Action (1 image)
+![p5.js FFT audio visualization example](https://i.ytimg.com/vi/2O3nm0Nvbi4/hqdefault.jpg)
 
-**Example Implementation and Code**
-
-- Coding Train Challenge Page: [Perlin Noise Flow Field](https://thecodingtrain.com/challenges/24-perlin-noise-flow-field)
-- Example Code (GitHub): [Coding Train Flow Field source](https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_024_PerlinNoiseFlowField)
-- Related p5.js Reference: [noise()](https://p5js.org/reference/p5/noise/)
+### Online Example Implementation (including code)
+- Implementation example: [The Coding Train - Frequency Analysis with FFT](https://thecodingtrain.com/tracks/sound/sound/11-sound-visualization-frequency-analysis)
+- Example code: [Coding Train source code](https://github.com/CodingTrain/website/tree/main/CodingChallenges)
