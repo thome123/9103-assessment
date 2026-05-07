@@ -24,7 +24,7 @@ My inspiration comes from teamLab’s *Universe of Water Particles on a Rock whe
 **`p5.FFT` frequency analysis**
 
 ### Discussion
-I will use `p5.FFT` to analyse audio by frequency bands and map that data to visual behavior. Low frequencies can drive large wave movement, while higher frequencies can control fine line flicker and particle detail. This directly supports the layered fluid motion in my teamLab references. Because FFT returns structured spectrum data every frame, the visuals can react to sound in real time while remaining controllable and readable. This makes FFT a strong single technique for implementing my Audio mechanic.
+I will use `p5.FFT` to analyse audio by frequency bands and map that data to visual behavior. Low frequencies can drive large wave movement, while higher frequencies can control fine line flicker and particle detail. FFT values will also map to particle flow strength and line density, so audio energy reshapes waterfall-like motion inspired by teamLab. Because FFT returns structured spectrum data every frame, the visuals can react to sound in real time while remaining controllable and readable.
 
 ### Screenshot / Image
 ![p5.js FFT audio visualization example](assets/images/fft-in-action.png)
